@@ -1,0 +1,46 @@
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+
+  .btn-action {
+    cursor: pointer;
+  }
+}
+
+.lobby-table {
+  min-width: 150px;
+  max-width: 150px;
+  padding: 5px 15px 15px;
+  border-radius: 20px;
+  border: 1px solid #02affc;
+  background: linear-gradient(to bottom, #3ad7ff 0%, #02affc 100%);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.75);
+
+  .title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    margin-bottom: 7px;
+  }
+
+  .participants {
+    border: 1px solid #02affc;
+    background: #609bb5;
+    box-shadow: inset 0 1px 4px 0 rgba(0,0,0,.5);
+    padding: 0 2px;
+
+    .user-active-icon {
+      font-size: 0.9em;
+      color: #a7abae;
+      text-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+    }
+
+    .user-inactive-icon {
+      font-size: 0.9em;
+      color: #567d8f;
+      text-shadow: 0 0 2px rgba(255, 255, 255, .3);
+    }
+  }
+}
